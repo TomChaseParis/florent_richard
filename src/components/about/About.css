@@ -1,0 +1,24 @@
+
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+
+  .about {
+    height: 100%;
+  }
+
+  .about-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-list img {
+    width: 100%;
+  }
+
+  .about-text {
+    margin: 0 auto;
+    padding: 1rem 0;
+  }
+
+
+}
