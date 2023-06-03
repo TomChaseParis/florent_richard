@@ -37,10 +37,10 @@ const Navbar = () => {
           <Link className="nav-item" to='news' spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>ACTUALITES</Link>
         </li>
         <li>
-          <Link className="nav-item" to='discography' spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>DISCGRAPHIE</Link>
+          <Link className="nav-item" to='discography' spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>DISCOGRAPHIE</Link>
         </li>
         <li>
-          <Link className="nav-item" to='about' spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>A PROPOS</Link>
+          <Link className="nav-item" to='about' spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>BIOGRAPHIE</Link>
         </li>
         <li>
           <Link className="nav-item" to='concerts' spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>CONCERTS</Link>

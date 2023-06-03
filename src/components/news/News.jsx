@@ -39,8 +39,8 @@ const News = () => {
                   animate={isVisible ? 'show' : 'hidden'}
                   viewport={{ once: false, amount: 0.3 }}>A LA UNE</motion.h1>
                   <h2 className="text-[30px] text-blue-800">SORTIE LE 5 JUIN</h2>
-                <h2 className='text-[20px]'>A TOUR DE CONTRÔLE</h2>
-                <p className='w-[500px] mt-5 text-base	 leading-9 max-sm:w-[90%] max-sm:text-justify max-sm:mx-auto text-news'>Titre-phare aux allures de révolte, musicalement incandescent, À tour de contrôle est une incursion en zone dangereuse, dont on sortira vivant ou non. D’un texte puissant, façon Gainsbourg avec des airs de Feu ! Chatterton, Florent Richard tranche dans le vif les tourments de notre époque. </p>
+                <h2 className='text-[20px]'>À TOUR DE CONTRÔLE</h2>
+                <p className='w-[500px] mt-5 text-base	 leading-9 max-sm:w-[90%] max-sm:text-justify max-sm:mx-auto text-news'>Titre-phare aux allures de révolte, musicalement incandescent, <span className='font-bold'>À tour de contrôle</span> est une incursion en zone dangereuse, dont on sortira vivant ou non. D’un texte puissant, façon Gainsbourg avec des airs de Feu ! Chatterton, Florent Richard tranche dans le vif les tourments de notre époque. </p>
                 <div className='mt-2 text-base'>
                   <a href="https://wiseband.lnk.to/florent-richard-a-tour-de-controle" className="inline-block bg-blue-800	hover:bg-blue-600 text-white py-2 px-4 border border-blue-500 rounded max-sm:mb-5"
                    target="_blank"

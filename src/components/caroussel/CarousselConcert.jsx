@@ -23,7 +23,6 @@ const CarousselConcerts = () => {
   const slides = [
     { url: ImgCon1 },
     { url: ImgCon6 },
-    { url: ImgCon7 },
     { url: ImgCon8 },
   ];
 
