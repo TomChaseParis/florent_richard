@@ -10,7 +10,7 @@ const Hero = () => {
      </div>
       <div className='content'>
         <h1 className="content-title" style={{ color: 'white' }}>FLORENT RICHARD</h1>
-        <h2 className='text-[30px] max-sm:text-xl text-white'>CHANTEUR - MUSICIEN - COMPOSITEUR</h2>
+        <h2 className='text-xl max-sm:text-sm text-white'>CHANTEUR - MUSICIEN - COMPOSITEUR</h2>
       </div>
     </div>
   );

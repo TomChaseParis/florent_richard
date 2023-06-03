@@ -1,4 +1,4 @@
-import React, {useRef} from 'react';
+import React, { useRef } from 'react';
 import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 import emailjs from '@emailjs/browser';
@@ -23,7 +23,7 @@ const Contact = () => {
         (result) => {
           console.log(result.text)
           toast.success(
-            'Notre équipe vous remercie pour votre message, qui sera traité dans les meilleurs délais. Cordialement, Vincent Fernandel Production',
+            'La production vous remercie pour votre message, qui sera traité dans les meilleurs délais. Cordialement, Vincent Fernandel Production',
             {
               autoClose: 10000,
             }
@@ -37,13 +37,17 @@ const Contact = () => {
         }
       )
   }
-
   return (
     <div className="max-w-md mx-auto py-4 max-sm:h-full" id='contact'>
       <h1 className='text-center py-12'>CONTACT</h1>
+      <h2 className='text-center text-base mb-3 italic max-sm:text-center'>Florent Richard est représenté par <a
+        className='text-blue-900 font-bold underline'
+        href='https://vincentfernandelproduction.netlify.app/'
+        target="_blank"
+        rel="noopener noreferrer"><br />Vincent Fernandel Production</a> </h2>
       <form className='max-sm:w-[90%] max-sm:mx-auto' ref={form} onSubmit={sendEmail}>
         <div className="mb-4">
-          <label className="text-xl block text-gray-700 text-sm font-bold mb-2" htmlFor="name">
+          <label className="text-base block text-gray-700 font-bold mb-2" htmlFor="name">
             Nom
           </label>
           <input
@@ -55,7 +59,7 @@ const Contact = () => {
             required />
         </div>
         <div className="mb-4">
-          <label className="text-xl block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
+          <label className="text-base	block text-gray-700 font-bold mb-2" htmlFor="email">
             Email
           </label>
           <input
@@ -67,7 +71,7 @@ const Contact = () => {
             required />
         </div>
         <div className="mb-6">
-          <label className="text-xl block text-gray-700 text-sm font-bold mb-2" htmlFor="message">
+          <label className="text-base	block text-gray-700 font-bold mb-2" htmlFor="message">
             Message
           </label>
           <textarea

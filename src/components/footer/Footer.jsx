@@ -2,10 +2,9 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='flex justify-center text-xl'>
+    <div className='flex justify-center text-base'>
        <ul>
         <li>
-          <p>Mentions légales</p>
           <p>@copyright 2023</p>
         </li>
        </ul>
