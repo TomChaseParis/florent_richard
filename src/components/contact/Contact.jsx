@@ -43,7 +43,7 @@ const Contact = () => {
       <h1 className='text-center py-12'>CONTACT</h1>
       <form className='max-sm:w-[90%] max-sm:mx-auto' ref={form} onSubmit={sendEmail}>
         <div className="mb-4">
-          <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">
+          <label className="text-xl block text-gray-700 text-sm font-bold mb-2" htmlFor="name">
             Nom
           </label>
           <input
@@ -55,7 +55,7 @@ const Contact = () => {
             required />
         </div>
         <div className="mb-4">
-          <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
+          <label className="text-xl block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
             Email
           </label>
           <input
@@ -67,7 +67,7 @@ const Contact = () => {
             required />
         </div>
         <div className="mb-6">
-          <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="message">
+          <label className="text-xl block text-gray-700 text-sm font-bold mb-2" htmlFor="message">
             Message
           </label>
           <textarea

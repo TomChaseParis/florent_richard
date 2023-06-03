@@ -6,10 +6,12 @@ import {
 import { ImCross } from 'react-icons/im';
 import { RxDotFilled } from 'react-icons/rx';
 
-import ImgCon1 from '../../assets/con1.jpeg';
-import ImgCon6 from '../../assets/con6.jpeg';
-import ImgCon7 from '../../assets/con7.jpeg';
-import ImgCon8 from '../../assets/con8.jpeg';
+import Disco2 from '../../assets/artetmaniere.jpg';
+import Disco3 from '../../assets/ff.jpeg';
+import Disco5 from '../../assets/jour.webp';
+import Disco6 from '../../assets/Initials-SG.jpg'
+import Disco7 from '../../assets/gb.jpeg'
+
 
 const hashCode = (str) => {
   let hash = 0;
@@ -21,10 +23,11 @@ const hashCode = (str) => {
 
 const CarousselConcerts = () => {
   const slides = [
-    { url: ImgCon1 },
-    { url: ImgCon6 },
-    { url: ImgCon7 },
-    { url: ImgCon8 },
+    { url: Disco2 },
+    { url: Disco3 },
+    { url: Disco5 },
+    { url: Disco6 },
+    { url: Disco7 },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -159,4 +162,4 @@ const CarousselConcerts = () => {
   );
 };
 
-export default CarousselConcerts;
+export default CarousselDiscography;

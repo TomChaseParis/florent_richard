@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='flex justify-center'>
+    <div className='flex justify-center text-xl'>
        <ul>
         <li>
           <p>Mentions légales</p>
