@@ -8,11 +8,13 @@ import About from '../components/about/About'
 import './Home.css'
 import Contact from '../components/contact/Contact'
 import Concerts from '../components/concerts/Concerts'
+import Hero from '../components/hero/Hero'
 
 const Home = () => {
   return (
     <>
     <Navbar />
+    <Hero />
     <News />
     <Discography />
     <About />

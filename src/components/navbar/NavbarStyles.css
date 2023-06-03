@@ -41,9 +41,13 @@
   cursor: pointer;
 }
 
+.nav-menu li a:hover {
+  text-decoration: underline;
+}
+
 .nav-item:hover {
   font-weight: bold;
-  transition: 0.5s;
+  transition: ease-in-out 0.5s;
 }
 
 .hamburger {
