@@ -42,7 +42,7 @@ const Contact = () => {
       <h1 className='text-center py-12'>CONTACT</h1>
       <h2 className='text-center text-base mb-3 italic max-sm:text-center'>Florent Richard est représenté par <a
         className='text-blue-900 font-bold underline'
-        href='https://vincentfernandelproduction.netlify.app/'
+        href='https://vincentfernandelproduction.com/'
         target="_blank"
         rel="noopener noreferrer"><br />Vincent Fernandel Production</a> </h2>
       <form className='max-sm:w-[90%] max-sm:mx-auto' ref={form} onSubmit={sendEmail}>
