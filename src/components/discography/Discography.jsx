@@ -13,7 +13,7 @@ const Discography = () => {
   const albums = [
     { image: Disco2, title: `L'ART ET LA MANIERE (2005)`, link: 'https://www.deezer.com/fr/album/43023' },
     { image: Disco5, title: 'UN JOUR COMME ÇA (2007)', link: 'https://open.spotify.com/track/2YCEYChjVmYQK003vLbJn8' },
-    { image: Disco8, title: '3ÈME ALBUM (2013)', link: '' },
+    { image: Disco8, title: '3EME ALBUM (2013)', link: '' },
     { image: Disco7, title: `LE GRAND BLOND ET L'ACCORDEONISTE (2019)`, link: 'https://music.apple.com/fr/album/le-grand-blond-et-laccord%C3%A9oniste/1463623561'},
     { image: Disco6, title: 'INITIALS S.G. (2021)', link: 'https://music.apple.com/fr/album/initials-sg/1565843282' },
     { image: Disco3, title: 'FALLING FOR (2022)', link: 'https://open.spotify.com/album/3fBwPHwh3NF6g3MQQWeiOC' }, //
