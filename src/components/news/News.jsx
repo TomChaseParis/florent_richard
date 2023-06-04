@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import Disco1 from '../../assets/controle.jpg';
+import {BsSpotify} from 'react-icons/bs'
 import { motion } from 'framer-motion'
 
 import './News.css'
@@ -25,7 +26,18 @@ const News = () => {
           <div className=' w-full'>
             <h1 className='text-center py-12'>ACTUALITES</h1>
             <div className='flex max-sm:pt-5 gap-9 justify-center max-sm:flex-col'>
-              <img className='w-[400px] max-sm:mx-auto' src={Disco1} alt='' />
+              <div>
+                 <img className='w-[400px] max-sm:mx-auto' src={Disco1} alt='' />
+              <div className='flex gap-4 justify-center mt-4'>
+                <BsSpotify size={25} className='news-icon' />
+                <a 
+                className='underline'
+                href="https://open.spotify.com/artist/6WTEK43c8WZe9VfxlhzG6q"
+                target="_blank"
+                rel="noopener noreferrer">Suivez FLORENT RICHARD sur Spotify</a>
+              </div>
+              </div>
+             
               <div className='flex flex-col max-sm:items-center'>
               <motion.h1
                   variants={{
